@@ -1,34 +1,52 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-07-07T22:38:04.858Z",
+  "updatedAt": "2026-07-07T22:51:41.499Z",
   "readings": {
     "fearGreed": 27,
     "fearGreedLabel": "Fear",
-    "btc": 63558,
-    "eth": 1775.83,
-    "sol": 80.89,
-    "btcMA50": 66429
+    "btc": 63491,
+    "eth": 1774.94,
+    "sol": 80.86,
+    "btcMA50": 66427,
+    "cpiYoY": 4.3,
+    "fedRate": 3.63,
+    "dollarIndex": 120.7,
+    "usdmxn": 17.4958,
+    "banxicoRate": 6.5
   },
   "auto": {
     "senti": "miedo",
-    "tend": "baja"
+    "tend": "baja",
+    "infla": "sube",
+    "fed": "estable",
+    "dxy": "fuerte",
+    "mxn": "estable",
+    "banxico": "baja"
   },
   "state": {
     "fed": "estable",
-    "infla": "estable",
-    "dxy": "neutral",
+    "infla": "sube",
+    "dxy": "fuerte",
     "geo": "bajo",
     "senti": "miedo",
     "tend": "baja",
-    "banxico": "estable",
+    "banxico": "baja",
     "mxn": "estable",
     "regcripto": "neutral",
     "results": "linea"
   },
   "markets": {
     "CR": {
-      "score": -0.19999999999999996,
-      "risk": 3.8,
+      "score": -3.2,
+      "risk": 4.3999999999999995,
       "drivers": [
+        {
+          "label": "Inflación en EE.UU.",
+          "w": -1.5
+        },
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -1.5
+        },
         {
           "label": "Tendencia técnica del mercado",
           "w": -1
@@ -42,17 +60,25 @@ window.IOS_DATA = {
           "w": 0.3
         }
       ],
-      "signal": "ESPERA",
-      "conv": 3,
+      "signal": "VENTA",
+      "conv": 53,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0,
-      "risk": 2.8,
+      "score": -2,
+      "risk": 3.4,
       "drivers": [
+        {
+          "label": "Inflación en EE.UU.",
+          "w": -1.5
+        },
         {
           "label": "Tendencia técnica del mercado",
           "w": -1
+        },
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -0.5
         },
         {
           "label": "Riesgo geopolítico",
@@ -64,13 +90,25 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
-      "riskLevel": "MEDIO"
+      "conv": 33,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -0.19999999999999996,
-      "risk": 3.0999999999999996,
+      "score": -1.7000000000000002,
+      "risk": 3.7,
       "drivers": [
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -2
+        },
+        {
+          "label": "Banxico — tasa en México",
+          "w": 1.5
+        },
+        {
+          "label": "Inflación en EE.UU.",
+          "w": -1
+        },
         {
           "label": "Tendencia técnica del mercado",
           "w": -1
@@ -85,23 +123,15 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 3,
-      "riskLevel": "MEDIO"
+      "conv": 28,
+      "riskLevel": "ALTO"
     }
   },
   "manualPending": [
-    "fed",
-    "infla",
-    "dxy",
     "geo",
-    "banxico",
-    "mxn",
     "regcripto",
     "results"
   ],
-  "notes": [
-    "FRED falló: HTTP 400 en https://api.stlouisfed.org/fred/series/observations?series_id=FEDFUNDS&api_key=703e1ba4a62411c9fbc8e935fa0bcb815e4f2ca1c355adb37a672f25d0c575e7&file_type=json&sort_order=desc&limit=6",
-    "Sin BANXICO_TOKEN: tasa MX y peso quedan en manual."
-  ],
+  "notes": [],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 };
