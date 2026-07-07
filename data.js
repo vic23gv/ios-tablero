@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-07-07T22:27:44.647Z",
+  "updatedAt": "2026-07-07T22:38:04.858Z",
   "readings": {
     "fearGreed": 27,
     "fearGreedLabel": "Fear",
-    "btc": 63385,
-    "eth": 1770.06,
-    "sol": 80.77,
-    "btcMA50": 66425
+    "btc": 63558,
+    "eth": 1775.83,
+    "sol": 80.89,
+    "btcMA50": 66429
   },
   "auto": {
     "senti": "miedo",
@@ -100,7 +100,7 @@ window.IOS_DATA = {
     "results"
   ],
   "notes": [
-    "Sin FRED_KEY: Fed, inflación y dólar quedan en manual.",
+    "FRED falló: HTTP 400 en https://api.stlouisfed.org/fred/series/observations?series_id=FEDFUNDS&api_key=703e1ba4a62411c9fbc8e935fa0bcb815e4f2ca1c355adb37a672f25d0c575e7&file_type=json&sort_order=desc&limit=6",
     "Sin BANXICO_TOKEN: tasa MX y peso quedan en manual."
   ],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
