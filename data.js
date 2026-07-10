@@ -1,25 +1,25 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-07-10T11:23:45.376Z",
+  "updatedAt": "2026-07-10T18:08:46.884Z",
   "readings": {
     "fearGreed": 23,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 64338,
-    "eth": 1796.03,
-    "sol": 79.34,
-    "btcMA50": 65613,
+    "btc": 63870,
+    "eth": 1789.55,
+    "sol": 77.68,
+    "btcMA50": 65604,
     "cpiYoY": 4.3,
     "fedRate": 3.63,
     "dollarIndex": 120.7,
-    "usdmxn": 17.535,
+    "usdmxn": 17.4842,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "baja",
     "infla": "sube",
     "fed": "estable",
     "dxy": "fuerte",
-    "mxn": "estable",
+    "mxn": "debil",
     "banxico": "baja"
   },
   "state": {
@@ -28,16 +28,16 @@ window.IOS_DATA = {
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "baja",
     "banxico": "baja",
-    "mxn": "estable",
+    "mxn": "debil",
     "regcripto": "neutral",
     "results": "linea"
   },
   "markets": {
     "CR": {
-      "score": -2.2,
-      "risk": 4.1,
+      "score": -3.2,
+      "risk": 4.3999999999999995,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
@@ -46,6 +46,10 @@ window.IOS_DATA = {
         {
           "label": "Fortaleza del dólar (DXY)",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,16 +61,20 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 37,
+      "conv": 53,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -1,
-      "risk": 3.1,
+      "score": -2,
+      "risk": 3.4,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -82,12 +90,12 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 17,
-      "riskLevel": "MEDIO"
+      "conv": 33,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -0.7000000000000002,
-      "risk": 3.4000000000000004,
+      "score": -3.2,
+      "risk": 4.2,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -98,7 +106,15 @@ window.IOS_DATA = {
           "w": 1.5
         },
         {
+          "label": "Peso mexicano (MXN)",
+          "w": -1.5
+        },
+        {
           "label": "Inflación en EE.UU.",
+          "w": -1
+        },
+        {
+          "label": "Tendencia técnica del mercado",
           "w": -1
         },
         {
@@ -110,8 +126,8 @@ window.IOS_DATA = {
           "w": 0.3
         }
       ],
-      "signal": "ESPERA",
-      "conv": 12,
+      "signal": "VENTA",
+      "conv": 53,
       "riskLevel": "ALTO"
     }
   },
