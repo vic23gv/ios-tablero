@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-09T18:28:11.545Z",
+  "updatedAt": "2026-07-10T11:23:45.376Z",
   "readings": {
-    "fearGreed": 22,
+    "fearGreed": 23,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 63223,
-    "eth": 1750.9,
-    "sol": 78.12,
-    "btcMA50": 65870,
+    "btc": 64338,
+    "eth": 1796.03,
+    "sol": 79.34,
+    "btcMA50": 65613,
     "cpiYoY": 4.3,
     "fedRate": 3.63,
     "dollarIndex": 120.7,
@@ -15,7 +15,7 @@
   },
   "auto": {
     "senti": "miedo",
-    "tend": "baja",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "fuerte",
@@ -28,7 +28,7 @@
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "baja",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "estable",
     "regcripto": "neutral",
@@ -36,8 +36,8 @@
   },
   "markets": {
     "CR": {
-      "score": -3.2,
-      "risk": 4.3999999999999995,
+      "score": -2.2,
+      "risk": 4.1,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
@@ -46,10 +46,6 @@
         {
           "label": "Fortaleza del dólar (DXY)",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -61,20 +57,16 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 53,
+      "conv": 37,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -2,
-      "risk": 3.4,
+      "score": -1,
+      "risk": 3.1,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -90,12 +82,12 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 33,
-      "riskLevel": "ALTO"
+      "conv": 17,
+      "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -1.7000000000000002,
-      "risk": 3.7,
+      "score": -0.7000000000000002,
+      "risk": 3.4000000000000004,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -110,10 +102,6 @@
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -123,7 +111,7 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 28,
+      "conv": 12,
       "riskLevel": "ALTO"
     }
   },
