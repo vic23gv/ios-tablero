@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-07-12T20:29:36.922Z",
+  "updatedAt": "2026-07-13T11:43:49.496Z",
   "readings": {
-    "fearGreed": 26,
+    "fearGreed": 28,
     "fearGreedLabel": "Fear",
-    "btc": 64161,
-    "eth": 1818.32,
-    "sol": 77.49,
-    "btcMA50": 65118,
+    "btc": 62914,
+    "eth": 1780.83,
+    "sol": 76.37,
+    "btcMA50": 64840,
     "cpiYoY": 4.3,
     "fedRate": 3.63,
     "dollarIndex": 120.7,
@@ -15,7 +15,7 @@ window.IOS_DATA = {
   },
   "auto": {
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "baja",
     "infla": "sube",
     "fed": "estable",
     "dxy": "fuerte",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "baja",
     "banxico": "baja",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,8 +36,8 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -2.2,
-      "risk": 4.1,
+      "score": -3.2,
+      "risk": 4.3999999999999995,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
@@ -46,6 +46,10 @@ window.IOS_DATA = {
         {
           "label": "Fortaleza del dólar (DXY)",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,16 +61,20 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 37,
+      "conv": 53,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -1,
-      "risk": 3.1,
+      "score": -2,
+      "risk": 3.4,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -82,12 +90,12 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 17,
-      "riskLevel": "MEDIO"
+      "conv": 33,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -2.2,
-      "risk": 3.9000000000000004,
+      "score": -3.2,
+      "risk": 4.2,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -106,6 +114,10 @@ window.IOS_DATA = {
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -115,7 +127,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 37,
+      "conv": 53,
       "riskLevel": "ALTO"
     }
   },
