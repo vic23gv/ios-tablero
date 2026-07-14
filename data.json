@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-14T07:24:42.049Z",
+  "updatedAt": "2026-07-14T16:43:45.285Z",
   "readings": {
     "fearGreed": 22,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 62508,
-    "eth": 1780.63,
-    "sol": 74.97,
-    "btcMA50": 64543,
-    "cpiYoY": 4.3,
+    "btc": 64792,
+    "eth": 1873.54,
+    "sol": 77.51,
+    "btcMA50": 64588,
+    "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.5,
     "usdmxn": 17.5023,
@@ -15,7 +15,7 @@
   },
   "auto": {
     "senti": "miedo",
-    "tend": "baja",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "baja",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,16 +36,12 @@
   },
   "markets": {
     "CR": {
-      "score": -1.7,
-      "risk": 4.1,
+      "score": -0.7,
+      "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,20 +53,16 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 28,
+      "conv": 12,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -1.5,
-      "risk": 3.0999999999999996,
+      "score": -0.5,
+      "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
         },
         {
           "label": "Riesgo geopolítico",
@@ -82,12 +74,12 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 25,
+      "conv": 8,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -1.2,
-      "risk": 3.9,
+      "score": -0.19999999999999996,
+      "risk": 3.6,
       "drivers": [
         {
           "label": "Banxico — tasa en México",
@@ -102,10 +94,6 @@
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -115,7 +103,7 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 20,
+      "conv": 3,
       "riskLevel": "ALTO"
     }
   },
