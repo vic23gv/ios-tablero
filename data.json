@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-14T16:43:45.285Z",
+  "updatedAt": "2026-07-14T21:32:48.384Z",
   "readings": {
     "fearGreed": 22,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 64792,
-    "eth": 1873.54,
-    "sol": 77.51,
-    "btcMA50": 64588,
+    "btc": 64631,
+    "eth": 1876.69,
+    "sol": 77.22,
+    "btcMA50": 64585,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.5,
-    "usdmxn": 17.5023,
+    "usdmxn": 17.4278,
     "banxicoRate": 6.5
   },
   "auto": {
@@ -19,7 +19,7 @@
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
-    "mxn": "debil",
+    "mxn": "estable",
     "banxico": "baja"
   },
   "state": {
@@ -30,7 +30,7 @@
     "senti": "miedo",
     "tend": "lateral",
     "banxico": "baja",
-    "mxn": "debil",
+    "mxn": "estable",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -78,16 +78,12 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -0.19999999999999996,
-      "risk": 3.6,
+      "score": 1.3,
+      "risk": 3.1,
       "drivers": [
         {
           "label": "Banxico — tasa en México",
           "w": 1.5
-        },
-        {
-          "label": "Peso mexicano (MXN)",
-          "w": -1.5
         },
         {
           "label": "Inflación en EE.UU.",
@@ -103,8 +99,8 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 3,
-      "riskLevel": "ALTO"
+      "conv": 22,
+      "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
