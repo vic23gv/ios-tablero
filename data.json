@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-20T10:34:00.397Z",
+  "updatedAt": "2026-07-20T17:08:39.125Z",
   "readings": {
     "fearGreed": 29,
     "fearGreedLabel": "Fear",
-    "btc": 64239,
-    "eth": 1866.59,
-    "sol": 76.45,
-    "btcMA50": 63376,
+    "btc": 65443,
+    "eth": 1897.66,
+    "sol": 77.58,
+    "btcMA50": 63400,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.5,
@@ -15,7 +15,7 @@
   },
   "auto": {
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "alza",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "alza",
     "banxico": "baja",
     "mxn": "estable",
     "regcripto": "neutral",
@@ -36,12 +36,16 @@
   },
   "markets": {
     "CR": {
-      "score": -0.7,
+      "score": 0.30000000000000004,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -53,16 +57,20 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 12,
+      "conv": 5,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -0.5,
+      "score": 0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -78,7 +86,7 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 1.3,
+      "score": 2.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -90,6 +98,10 @@
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -98,8 +110,8 @@
           "w": 0.3
         }
       ],
-      "signal": "ESPERA",
-      "conv": 22,
+      "signal": "COMPRA",
+      "conv": 38,
       "riskLevel": "MEDIO"
     }
   },
