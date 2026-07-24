@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-07-24T09:11:34.290Z",
+  "updatedAt": "2026-07-24T17:15:05.929Z",
   "readings": {
     "fearGreed": 28,
     "fearGreedLabel": "Fear",
-    "btc": 65092,
-    "eth": 1883.98,
-    "sol": 75.59,
-    "btcMA50": 63142,
+    "btc": 63896,
+    "eth": 1855.68,
+    "sol": 73.89,
+    "btcMA50": 63118,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.5,
@@ -15,7 +15,7 @@ window.IOS_DATA = {
   },
   "auto": {
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "estable",
     "regcripto": "neutral",
@@ -36,16 +36,12 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": 0.30000000000000004,
+      "score": -0.7,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,20 +53,16 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 5,
+      "conv": 12,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": -0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -86,7 +78,7 @@ window.IOS_DATA = {
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 2.3,
+      "score": 1.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -98,10 +90,6 @@ window.IOS_DATA = {
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -110,8 +98,8 @@ window.IOS_DATA = {
           "w": 0.3
         }
       ],
-      "signal": "COMPRA",
-      "conv": 38,
+      "signal": "ESPERA",
+      "conv": 22,
       "riskLevel": "MEDIO"
     }
   },
