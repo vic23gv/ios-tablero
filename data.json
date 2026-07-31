@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-30T21:49:26.276Z",
+  "updatedAt": "2026-07-31T10:04:52.063Z",
   "readings": {
-    "fearGreed": 28,
-    "fearGreedLabel": "Fear",
-    "btc": 64718,
-    "eth": 1920.21,
-    "sol": 74.44,
-    "btcMA50": 63363,
+    "fearGreed": 25,
+    "fearGreedLabel": "Extreme Fear",
+    "btc": 63640,
+    "eth": 1882.08,
+    "sol": 73.43,
+    "btcMA50": 63379,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.7,
@@ -15,7 +15,7 @@
   },
   "auto": {
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "estable",
     "regcripto": "neutral",
@@ -36,16 +36,12 @@
   },
   "markets": {
     "CR": {
-      "score": 0.30000000000000004,
+      "score": -0.7,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,20 +53,16 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 5,
+      "conv": 12,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": -0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -86,7 +78,7 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 2.3,
+      "score": 1.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -98,10 +90,6 @@
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -110,8 +98,8 @@
           "w": 0.3
         }
       ],
-      "signal": "COMPRA",
-      "conv": 38,
+      "signal": "ESPERA",
+      "conv": 22,
       "riskLevel": "MEDIO"
     }
   },
