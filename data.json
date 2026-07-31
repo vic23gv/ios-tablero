@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-31T17:12:10.190Z",
+  "updatedAt": "2026-07-31T21:46:38.683Z",
   "readings": {
     "fearGreed": 25,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 62774,
-    "eth": 1862.9,
-    "sol": 73.15,
-    "btcMA50": 63362,
+    "btc": 62953,
+    "eth": 1860.53,
+    "sol": 72.95,
+    "btcMA50": 63365,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.7,
-    "usdmxn": 17.3562,
+    "usdmxn": 17.3288,
     "banxicoRate": 6.5
   },
   "auto": {
