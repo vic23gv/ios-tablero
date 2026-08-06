@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-08-05T22:18:13.269Z",
+  "updatedAt": "2026-08-06T10:14:29.878Z",
   "readings": {
-    "fearGreed": 27,
-    "fearGreedLabel": "Fear",
-    "btc": 64622,
-    "eth": 1909.76,
-    "sol": 74.05,
-    "btcMA50": 63293,
+    "fearGreed": 25,
+    "fearGreedLabel": "Extreme Fear",
+    "btc": 64532,
+    "eth": 1901.3,
+    "sol": 73.12,
+    "btcMA50": 63271,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 119.7,
@@ -15,7 +15,7 @@ window.IOS_DATA = {
   },
   "auto": {
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "fuerte",
     "regcripto": "neutral",
@@ -36,16 +36,12 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": 0.30000000000000004,
+      "score": -0.7,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,20 +53,16 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 5,
+      "conv": 12,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": -0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -86,7 +78,7 @@ window.IOS_DATA = {
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 3.3,
+      "score": 2.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -96,10 +88,6 @@ window.IOS_DATA = {
         {
           "label": "Inflación en EE.UU.",
           "w": -1
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Peso mexicano (MXN)",
@@ -115,7 +103,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "COMPRA",
-      "conv": 55,
+      "conv": 38,
       "riskLevel": "MEDIO"
     }
   },
