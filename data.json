@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-08-10T13:09:25.127Z",
+  "updatedAt": "2026-08-10T18:58:03.971Z",
   "readings": {
     "fearGreed": 30,
     "fearGreedLabel": "Fear",
-    "btc": 64850,
-    "eth": 1906.93,
-    "sol": 76.66,
-    "btcMA50": 63352,
+    "btc": 63848,
+    "eth": 1870.78,
+    "sol": 75.75,
+    "btcMA50": 63332,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 119.7,
-    "usdmxn": 17.1387,
+    "usdmxn": 17.1408,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -28,7 +28,7 @@
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "baja",
     "mxn": "fuerte",
     "regcripto": "neutral",
@@ -36,16 +36,12 @@
   },
   "markets": {
     "CR": {
-      "score": 0.30000000000000004,
+      "score": -0.7,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -57,20 +53,16 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 5,
+      "conv": 12,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": -0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -86,7 +78,7 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 3.3,
+      "score": 2.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -96,10 +88,6 @@
         {
           "label": "Inflación en EE.UU.",
           "w": -1
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Peso mexicano (MXN)",
@@ -115,7 +103,7 @@
         }
       ],
       "signal": "COMPRA",
-      "conv": 55,
+      "conv": 38,
       "riskLevel": "MEDIO"
     }
   },
