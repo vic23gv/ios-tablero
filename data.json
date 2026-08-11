@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-08-10T18:58:03.971Z",
+  "updatedAt": "2026-08-11T01:48:14.248Z",
   "readings": {
-    "fearGreed": 30,
+    "fearGreed": 29,
     "fearGreedLabel": "Fear",
-    "btc": 63848,
-    "eth": 1870.78,
-    "sol": 75.75,
-    "btcMA50": 63332,
+    "btc": 63932,
+    "eth": 1874.04,
+    "sol": 75.83,
+    "btcMA50": 63347,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
-    "dollarIndex": 119.7,
+    "dollarIndex": 119.1,
     "usdmxn": 17.1408,
     "banxicoRate": 6.5
   },
@@ -18,30 +18,34 @@
     "tend": "lateral",
     "infla": "sube",
     "fed": "estable",
-    "dxy": "neutral",
+    "dxy": "debil",
     "mxn": "fuerte",
-    "banxico": "baja"
+    "banxico": "estable"
   },
   "state": {
     "fed": "estable",
     "infla": "sube",
-    "dxy": "neutral",
+    "dxy": "debil",
     "geo": "bajo",
     "senti": "miedo",
     "tend": "lateral",
-    "banxico": "baja",
+    "banxico": "estable",
     "mxn": "fuerte",
     "regcripto": "neutral",
     "results": "linea"
   },
   "markets": {
     "CR": {
-      "score": -0.7,
+      "score": 0.8,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": 1.5
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -53,16 +57,20 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 12,
+      "conv": 13,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -0.5,
+      "score": 0.5,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -82,7 +90,7 @@
       "risk": 3.1,
       "drivers": [
         {
-          "label": "Banxico — tasa en México",
+          "label": "Fortaleza del dólar (DXY)",
           "w": 1.5
         },
         {
