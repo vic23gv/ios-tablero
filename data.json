@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-08-19T12:48:33.072Z",
+  "updatedAt": "2026-08-19T18:36:19.647Z",
   "readings": {
     "fearGreed": 46,
     "fearGreedLabel": "Fear",
-    "btc": 64873,
-    "eth": 1931.36,
-    "sol": 78.01,
-    "btcMA50": 63786,
+    "btc": 68244,
+    "eth": 2085.92,
+    "sol": 81.95,
+    "btcMA50": 63852,
     "cpiYoY": 3.5,
     "fedRate": 3.63,
     "dollarIndex": 118.9,
-    "usdmxn": 17.0638,
+    "usdmxn": 16.9593,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "alza",
     "infla": "sube",
     "fed": "estable",
     "dxy": "debil",
@@ -28,7 +28,7 @@
     "dxy": "debil",
     "geo": "bajo",
     "senti": "miedo",
-    "tend": "lateral",
+    "tend": "alza",
     "banxico": "estable",
     "mxn": "fuerte",
     "regcripto": "neutral",
@@ -36,7 +36,7 @@
   },
   "markets": {
     "CR": {
-      "score": 0.8,
+      "score": 1.8,
       "risk": 3.8,
       "drivers": [
         {
@@ -48,6 +48,10 @@
           "w": 1.5
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Sentimiento (Miedo y Codicia)",
           "w": 0.5
         },
@@ -57,11 +61,11 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 13,
+      "conv": 30,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": 1.5,
       "risk": 2.8,
       "drivers": [
         {
@@ -70,6 +74,10 @@
         },
         {
           "label": "Fortaleza del dólar (DXY)",
+          "w": 1
+        },
+        {
+          "label": "Tendencia técnica del mercado",
           "w": 1
         },
         {
@@ -82,11 +90,11 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 8,
+      "conv": 25,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 2.3,
+      "score": 3.3,
       "risk": 3.1,
       "drivers": [
         {
@@ -96,6 +104,10 @@
         {
           "label": "Inflación en EE.UU.",
           "w": -1
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
         },
         {
           "label": "Peso mexicano (MXN)",
@@ -111,7 +123,7 @@
         }
       ],
       "signal": "COMPRA",
-      "conv": 38,
+      "conv": 55,
       "riskLevel": "MEDIO"
     }
   },
