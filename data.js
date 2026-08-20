@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-08-19T18:36:19.647Z",
+  "updatedAt": "2026-08-20T01:16:23.052Z",
   "readings": {
-    "fearGreed": 46,
-    "fearGreedLabel": "Fear",
-    "btc": 68244,
-    "eth": 2085.92,
-    "sol": 81.95,
-    "btcMA50": 63852,
+    "fearGreed": 62,
+    "fearGreedLabel": "Greed",
+    "btc": 69348,
+    "eth": 2256.31,
+    "sol": 84.79,
+    "btcMA50": 64083,
     "cpiYoY": 3.5,
     "fedRate": 3.63,
     "dollarIndex": 118.9,
@@ -14,7 +14,7 @@ window.IOS_DATA = {
     "banxicoRate": 6.5
   },
   "auto": {
-    "senti": "miedo",
+    "senti": "codicia",
     "tend": "alza",
     "infla": "sube",
     "fed": "estable",
@@ -27,7 +27,7 @@ window.IOS_DATA = {
     "infla": "sube",
     "dxy": "debil",
     "geo": "bajo",
-    "senti": "miedo",
+    "senti": "codicia",
     "tend": "alza",
     "banxico": "estable",
     "mxn": "fuerte",
@@ -36,7 +36,7 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": 1.8,
+      "score": -0.19999999999999996,
       "risk": 3.8,
       "drivers": [
         {
@@ -48,12 +48,12 @@ window.IOS_DATA = {
           "w": 1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1.5
         },
         {
-          "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.5
+          "label": "Tendencia técnica del mercado",
+          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -61,11 +61,11 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 30,
+      "conv": 3,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 1.5,
+      "score": 0,
       "risk": 2.8,
       "drivers": [
         {
@@ -77,24 +77,24 @@ window.IOS_DATA = {
           "w": 1
         },
         {
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1
+        },
+        {
           "label": "Tendencia técnica del mercado",
           "w": 1
         },
         {
           "label": "Riesgo geopolítico",
           "w": 0.5
-        },
-        {
-          "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.5
         }
       ],
       "signal": "ESPERA",
-      "conv": 25,
+      "conv": 0,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 3.3,
+      "score": 2.5,
       "risk": 3.1,
       "drivers": [
         {
@@ -119,11 +119,11 @@ window.IOS_DATA = {
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.3
+          "w": -0.5
         }
       ],
       "signal": "COMPRA",
-      "conv": 55,
+      "conv": 42,
       "riskLevel": "MEDIO"
     }
   },
