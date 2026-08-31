@@ -1,16 +1,16 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-08-31T12:56:17.727Z",
+  "updatedAt": "2026-08-31T22:34:46.309Z",
   "readings": {
     "fearGreed": 62,
     "fearGreedLabel": "Greed",
-    "btc": 77828,
-    "eth": 2448.39,
-    "sol": 102.64,
-    "btcMA50": 67489,
+    "btc": 78718,
+    "eth": 2470.14,
+    "sol": 103.29,
+    "btcMA50": 67506,
     "cpiYoY": 3.5,
     "fedRate": 3.63,
-    "dollarIndex": 118.1,
-    "usdmxn": 17.0427,
+    "dollarIndex": 118.7,
+    "usdmxn": 17.0147,
     "banxicoRate": 6.5
   },
   "auto": {
@@ -18,14 +18,14 @@ window.IOS_DATA = {
     "tend": "alza",
     "infla": "sube",
     "fed": "estable",
-    "dxy": "debil",
+    "dxy": "neutral",
     "mxn": "fuerte",
     "banxico": "estable"
   },
   "state": {
     "fed": "estable",
     "infla": "sube",
-    "dxy": "debil",
+    "dxy": "neutral",
     "geo": "bajo",
     "senti": "codicia",
     "tend": "alza",
@@ -36,16 +36,12 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -0.19999999999999996,
+      "score": -1.7000000000000002,
       "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": 1.5
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -61,20 +57,16 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 3,
+      "conv": 28,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0,
+      "score": -1,
       "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": 1
         },
         {
           "label": "Sentimiento (Miedo y Codicia)",
@@ -90,17 +82,13 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
+      "conv": 17,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 2.5,
+      "score": 1,
       "risk": 3.1,
       "drivers": [
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": 1.5
-        },
         {
           "label": "Inflación en EE.UU.",
           "w": -1
@@ -122,8 +110,8 @@ window.IOS_DATA = {
           "w": -0.5
         }
       ],
-      "signal": "COMPRA",
-      "conv": 42,
+      "signal": "ESPERA",
+      "conv": 17,
       "riskLevel": "MEDIO"
     }
   },
