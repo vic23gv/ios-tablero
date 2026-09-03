@@ -1,16 +1,16 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-09-03T15:56:09.987Z",
+  "updatedAt": "2026-09-03T20:37:06.106Z",
   "readings": {
     "fearGreed": 65,
     "fearGreedLabel": "Greed",
-    "btc": 81164,
-    "eth": 2508.72,
-    "sol": 105.06,
-    "btcMA50": 68383,
+    "btc": 81485,
+    "eth": 2506.41,
+    "sol": 105.18,
+    "btcMA50": 68389,
     "cpiYoY": 3.5,
     "fedRate": 3.63,
     "dollarIndex": 118.7,
-    "usdmxn": 16.9852,
+    "usdmxn": 16.956,
     "banxicoRate": 6.5
   },
   "auto": {
@@ -19,7 +19,7 @@ window.IOS_DATA = {
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
-    "mxn": "estable",
+    "mxn": "fuerte",
     "banxico": "estable"
   },
   "state": {
@@ -30,7 +30,7 @@ window.IOS_DATA = {
     "senti": "codicia",
     "tend": "alza",
     "banxico": "estable",
-    "mxn": "estable",
+    "mxn": "fuerte",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -86,7 +86,7 @@ window.IOS_DATA = {
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 0,
+      "score": 1,
       "risk": 3.1,
       "drivers": [
         {
@@ -95,6 +95,10 @@ window.IOS_DATA = {
         },
         {
           "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
+          "label": "Peso mexicano (MXN)",
           "w": 1
         },
         {
@@ -107,7 +111,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
+      "conv": 17,
       "riskLevel": "MEDIO"
     }
   },
