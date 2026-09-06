@@ -1,22 +1,26 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-09-05T20:01:29.663Z",
+  "updatedAt": "2026-09-06T03:22:39.856Z",
   "readings": {
     "fearGreed": 73,
     "fearGreedLabel": "Greed",
-    "btc": 79753,
-    "eth": 2477.64,
-    "sol": 103.42,
-    "btcMA50": 68991,
+    "btc": 79963,
+    "eth": 2505.81,
+    "sol": 104.85,
+    "btcMA50": 69307,
     "cpiYoY": 3.5,
     "fedRate": 3.63,
-    "dollarIndex": 118.7
+    "dollarIndex": 118.7,
+    "usdmxn": 16.8748,
+    "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
     "tend": "alza",
     "infla": "sube",
     "fed": "estable",
-    "dxy": "neutral"
+    "dxy": "neutral",
+    "mxn": "fuerte",
+    "banxico": "estable"
   },
   "state": {
     "fed": "estable",
@@ -26,7 +30,7 @@ window.IOS_DATA = {
     "senti": "codicia",
     "tend": "alza",
     "banxico": "estable",
-    "mxn": "estable",
+    "mxn": "fuerte",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -82,7 +86,7 @@ window.IOS_DATA = {
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 0,
+      "score": 1,
       "risk": 3.1,
       "drivers": [
         {
@@ -91,6 +95,10 @@ window.IOS_DATA = {
         },
         {
           "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
+          "label": "Peso mexicano (MXN)",
           "w": 1
         },
         {
@@ -103,19 +111,15 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
+      "conv": 17,
       "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
     "geo",
-    "banxico",
-    "mxn",
     "regcripto",
     "results"
   ],
-  "notes": [
-    "Banxico falló: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON"
-  ],
+  "notes": [],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 };
