@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-12T15:09:00.496Z",
+  "updatedAt": "2026-09-12T20:16:43.627Z",
   "readings": {
     "fearGreed": 63,
     "fearGreedLabel": "Greed",
-    "btc": 77435,
-    "eth": 2539.59,
-    "sol": 101.98,
-    "btcMA50": 70779,
+    "btc": 77168,
+    "eth": 2521.82,
+    "sol": 101.38,
+    "btcMA50": 70774,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 118.1,
