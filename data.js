@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-09-16T03:45:24.889Z",
+  "updatedAt": "2026-09-16T10:58:40.446Z",
   "readings": {
     "fearGreed": 51,
     "fearGreedLabel": "Neutral",
-    "btc": 75741,
-    "eth": 2399.05,
-    "sol": 97.03,
-    "btcMA50": 71734,
+    "btc": 75859,
+    "eth": 2401.31,
+    "sol": 97.11,
+    "btcMA50": 71736,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 118.2,
