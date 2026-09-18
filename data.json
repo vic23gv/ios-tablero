@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-09-18T15:58:23.974Z",
+  "updatedAt": "2026-09-18T20:32:15.429Z",
   "readings": {
     "fearGreed": 56,
     "fearGreedLabel": "Greed",
-    "btc": 80623,
-    "eth": 2578.68,
-    "sol": 110.77,
-    "btcMA50": 72315,
+    "btc": 81010,
+    "eth": 2628.15,
+    "sol": 113.44,
+    "btcMA50": 72322,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 118.2,
-    "usdmxn": 17.1872,
+    "usdmxn": 17.245,
     "banxicoRate": 6.5
   },
   "auto": {
@@ -19,7 +19,7 @@
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
-    "mxn": "estable",
+    "mxn": "debil",
     "banxico": "estable"
   },
   "state": {
@@ -30,7 +30,7 @@
     "senti": "codicia",
     "tend": "alza",
     "banxico": "estable",
-    "mxn": "estable",
+    "mxn": "debil",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -86,9 +86,13 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 0,
-      "risk": 3.1,
+      "score": -1.5,
+      "risk": 3.6,
       "drivers": [
+        {
+          "label": "Peso mexicano (MXN)",
+          "w": -1.5
+        },
         {
           "label": "Inflación en EE.UU.",
           "w": -1
@@ -107,8 +111,8 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
-      "riskLevel": "MEDIO"
+      "conv": 25,
+      "riskLevel": "ALTO"
     }
   },
   "manualPending": [
