@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T21:01:27.120Z",
+  "updatedAt": "2026-09-18T03:37:56.512Z",
   "readings": {
-    "fearGreed": 50,
-    "fearGreedLabel": "Neutral",
-    "btc": 76483,
-    "eth": 2451.2,
-    "sol": 101.17,
-    "btcMA50": 71989,
+    "fearGreed": 56,
+    "fearGreedLabel": "Greed",
+    "btc": 77345,
+    "eth": 2472.43,
+    "sol": 104.17,
+    "btcMA50": null,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 118.2,
@@ -14,8 +14,7 @@
     "banxicoRate": 6.5
   },
   "auto": {
-    "senti": "neutral",
-    "tend": "alza",
+    "senti": "codicia",
     "infla": "sube",
     "fed": "estable",
     "dxy": "neutral",
@@ -27,8 +26,8 @@
     "infla": "sube",
     "dxy": "neutral",
     "geo": "bajo",
-    "senti": "neutral",
-    "tend": "alza",
+    "senti": "codicia",
+    "tend": "lateral",
     "banxico": "estable",
     "mxn": "estable",
     "regcripto": "neutral",
@@ -36,37 +35,37 @@
   },
   "markets": {
     "CR": {
-      "score": -0.19999999999999996,
-      "risk": 2.3,
+      "score": -2.7,
+      "risk": 3.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1.5
         },
         {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
-      "signal": "ESPERA",
-      "conv": 3,
-      "riskLevel": "MEDIO"
+      "signal": "VENTA",
+      "conv": 45,
+      "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0,
-      "risk": 1.3,
+      "score": -2,
+      "risk": 2.8,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1
         },
         {
           "label": "Riesgo geopolítico",
@@ -74,33 +73,34 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 0,
-      "riskLevel": "BAJO"
+      "conv": 33,
+      "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": 0.5,
-      "risk": 1.6,
+      "score": -1,
+      "risk": 3.1,
       "drivers": [
         {
           "label": "Inflación en EE.UU.",
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
+        },
+        {
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -0.5
         }
       ],
       "signal": "ESPERA",
-      "conv": 8,
-      "riskLevel": "BAJO"
+      "conv": 17,
+      "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
     "geo",
+    "tend",
     "regcripto",
     "results"
   ],
