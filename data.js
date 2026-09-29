@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-09-29T12:17:50.124Z",
+  "updatedAt": "2026-09-29T21:58:02.185Z",
   "readings": {
     "fearGreed": 73,
     "fearGreedLabel": "Greed",
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.3,
-    "usdmxn": 17.8413,
+    "usdmxn": 18.071,
     "banxicoRate": 6.5
   },
   "auto": {
