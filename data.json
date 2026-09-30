@@ -1,8 +1,12 @@
 {
-  "updatedAt": "2026-09-29T21:58:02.185Z",
+  "updatedAt": "2026-09-30T04:26:05.283Z",
   "readings": {
-    "fearGreed": 73,
+    "fearGreed": 71,
     "fearGreedLabel": "Greed",
+    "btc": 83349,
+    "eth": 2673.54,
+    "sol": 119.35,
+    "btcMA50": 76997,
     "cpiYoY": 3.7,
     "fedRate": 3.63,
     "dollarIndex": 120.3,
@@ -11,6 +15,7 @@
   },
   "auto": {
     "senti": "codicia",
+    "tend": "alza",
     "infla": "sube",
     "fed": "estable",
     "dxy": "fuerte",
@@ -23,7 +28,7 @@
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "codicia",
-    "tend": "lateral",
+    "tend": "alza",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -31,7 +36,7 @@
   },
   "markets": {
     "CR": {
-      "score": -4.2,
+      "score": -3.2,
       "risk": 4.1,
       "drivers": [
         {
@@ -47,16 +52,20 @@
           "w": -1.5
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 70,
+      "conv": 53,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -2.5,
+      "score": -1.5,
       "risk": 3.1,
       "drivers": [
         {
@@ -68,6 +77,10 @@
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Fortaleza del dólar (DXY)",
           "w": -0.5
         },
@@ -76,12 +89,12 @@
           "w": 0.5
         }
       ],
-      "signal": "VENTA",
-      "conv": 42,
+      "signal": "ESPERA",
+      "conv": 25,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -4.5,
+      "score": -3.5,
       "risk": 3.9000000000000004,
       "drivers": [
         {
@@ -97,6 +110,10 @@
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -106,18 +123,15 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 75,
+      "conv": 58,
       "riskLevel": "ALTO"
     }
   },
   "manualPending": [
     "geo",
-    "tend",
     "regcripto",
     "results"
   ],
-  "notes": [
-    "Cripto falló: HTTP 403 en https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true"
-  ],
+  "notes": [],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 }
