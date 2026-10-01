@@ -1,29 +1,29 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-01T12:36:22.813Z",
+  "updatedAt": "2026-10-01T22:25:09.470Z",
   "readings": {
     "fearGreed": 74,
     "fearGreedLabel": "Greed",
-    "btc": 83846,
-    "eth": 2704.19,
-    "sol": 117.63,
-    "btcMA50": 77401,
+    "btc": 84727,
+    "eth": 2700.36,
+    "sol": 118.06,
+    "btcMA50": 77417,
     "cpiYoY": 3.7,
-    "fedRate": 3.63,
+    "fedRate": 3.75,
     "dollarIndex": 120.3,
-    "usdmxn": 18.0692,
+    "usdmxn": 18.3688,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
     "tend": "alza",
     "infla": "sube",
-    "fed": "estable",
+    "fed": "sube",
     "dxy": "fuerte",
     "mxn": "debil",
     "banxico": "estable"
   },
   "state": {
-    "fed": "estable",
+    "fed": "sube",
     "infla": "sube",
     "dxy": "fuerte",
     "geo": "bajo",
@@ -36,9 +36,13 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -3.2,
-      "risk": 4.1,
+      "score": -5.7,
+      "risk": 4.6,
       "drivers": [
+        {
+          "label": "Política monetaria de la Fed",
+          "w": -2.5
+        },
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
@@ -61,13 +65,17 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 53,
+      "conv": 95,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -1.5,
-      "risk": 3.1,
+      "score": -3.5,
+      "risk": 3.6,
       "drivers": [
+        {
+          "label": "Política monetaria de la Fed",
+          "w": -2
+        },
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
@@ -89,17 +97,21 @@ window.IOS_DATA = {
           "w": 0.5
         }
       ],
-      "signal": "ESPERA",
-      "conv": 25,
-      "riskLevel": "MEDIO"
+      "signal": "VENTA",
+      "conv": 58,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -3.5,
-      "risk": 3.9000000000000004,
+      "score": -5,
+      "risk": 4.4,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
           "w": -2
+        },
+        {
+          "label": "Política monetaria de la Fed",
+          "w": -1.5
         },
         {
           "label": "Peso mexicano (MXN)",
@@ -123,7 +135,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 58,
+      "conv": 83,
       "riskLevel": "ALTO"
     }
   },
