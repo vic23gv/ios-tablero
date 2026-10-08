@@ -1,21 +1,21 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-08T12:57:20.651Z",
+  "updatedAt": "2026-10-08T23:01:22.619Z",
   "readings": {
     "fearGreed": 64,
     "fearGreedLabel": "Greed",
-    "btc": 82249,
-    "eth": 2530.31,
-    "sol": 112.51,
-    "btcMA50": 80256,
+    "btc": 81788,
+    "eth": 2471.66,
+    "sol": 110.19,
+    "btcMA50": 80247,
     "cpiYoY": 3.7,
     "fedRate": 3.75,
     "dollarIndex": 121.4,
-    "usdmxn": 17.978,
+    "usdmxn": 18.1128,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
-    "tend": "alza",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
     "dxy": "fuerte",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "codicia",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,7 +36,7 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -5.7,
+      "score": -6.7,
       "risk": 4.6,
       "drivers": [
         {
@@ -56,20 +56,16 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 95,
+      "conv": 100,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -3.5,
+      "score": -4.5,
       "risk": 3.6,
       "drivers": [
         {
@@ -85,10 +81,6 @@ window.IOS_DATA = {
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Fortaleza del dólar (DXY)",
           "w": -0.5
         },
@@ -98,11 +90,11 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 58,
+      "conv": 75,
       "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -5,
+      "score": -6,
       "risk": 4.4,
       "drivers": [
         {
@@ -122,10 +114,6 @@ window.IOS_DATA = {
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -135,7 +123,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 83,
+      "conv": 100,
       "riskLevel": "ALTO"
     }
   },
