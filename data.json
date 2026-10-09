@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-08T23:01:22.619Z",
+  "updatedAt": "2026-10-09T04:59:56.118Z",
   "readings": {
-    "fearGreed": 64,
+    "fearGreed": 59,
     "fearGreedLabel": "Greed",
-    "btc": 81788,
-    "eth": 2471.66,
-    "sol": 110.19,
-    "btcMA50": 80247,
+    "btc": 82199,
+    "eth": 2485.51,
+    "sol": 109.87,
+    "btcMA50": 80557,
     "cpiYoY": 3.7,
     "fedRate": 3.75,
     "dollarIndex": 121.4,
@@ -15,7 +15,7 @@
   },
   "auto": {
     "senti": "codicia",
-    "tend": "lateral",
+    "tend": "alza",
     "infla": "sube",
     "fed": "sube",
     "dxy": "fuerte",
@@ -28,7 +28,7 @@
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "codicia",
-    "tend": "lateral",
+    "tend": "alza",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,7 +36,7 @@
   },
   "markets": {
     "CR": {
-      "score": -6.7,
+      "score": -5.7,
       "risk": 4.6,
       "drivers": [
         {
@@ -56,16 +56,20 @@
           "w": -1.5
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 100,
+      "conv": 95,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -4.5,
+      "score": -3.5,
       "risk": 3.6,
       "drivers": [
         {
@@ -81,6 +85,10 @@
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Fortaleza del dólar (DXY)",
           "w": -0.5
         },
@@ -90,11 +98,11 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 75,
+      "conv": 58,
       "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -6,
+      "score": -5,
       "risk": 4.4,
       "drivers": [
         {
@@ -114,6 +122,10 @@
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": 1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -123,7 +135,7 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 100,
+      "conv": 83,
       "riskLevel": "ALTO"
     }
   },
