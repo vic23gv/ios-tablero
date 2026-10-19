@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-18T20:12:38.729Z",
+  "updatedAt": "2026-10-19T03:38:18.521Z",
   "readings": {
-    "fearGreed": 53,
-    "fearGreedLabel": "Neutral",
-    "btc": 80793,
-    "eth": 2335.71,
-    "sol": 100.81,
-    "btcMA50": 81315,
+    "fearGreed": 59,
+    "fearGreedLabel": "Greed",
+    "btc": 82529,
+    "eth": 2424.68,
+    "sol": 105.34,
+    "btcMA50": 81424,
     "cpiYoY": 4,
     "fedRate": 3.75,
     "dollarIndex": 121.6,
@@ -14,7 +14,7 @@ window.IOS_DATA = {
     "banxicoRate": 6.5
   },
   "auto": {
-    "senti": "neutral",
+    "senti": "codicia",
     "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
@@ -27,7 +27,7 @@ window.IOS_DATA = {
     "infla": "sube",
     "dxy": "fuerte",
     "geo": "bajo",
-    "senti": "neutral",
+    "senti": "codicia",
     "tend": "lateral",
     "banxico": "estable",
     "mxn": "debil",
@@ -36,8 +36,8 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -5.2,
-      "risk": 3.0999999999999996,
+      "score": -6.7,
+      "risk": 4.6,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -52,17 +52,21 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1.5
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 87,
-      "riskLevel": "MEDIO"
+      "conv": 100,
+      "riskLevel": "ALTO"
     },
     "US": {
-      "score": -3.5,
-      "risk": 2.1,
+      "score": -4.5,
+      "risk": 3.6,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -71,6 +75,10 @@ window.IOS_DATA = {
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -82,12 +90,12 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 58,
-      "riskLevel": "MEDIO"
+      "conv": 75,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -5.5,
-      "risk": 2.9,
+      "score": -6,
+      "risk": 4.4,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -108,11 +116,15 @@ window.IOS_DATA = {
         {
           "label": "Riesgo geopolítico",
           "w": 0.5
+        },
+        {
+          "label": "Sentimiento (Miedo y Codicia)",
+          "w": -0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 92,
-      "riskLevel": "MEDIO"
+      "conv": 100,
+      "riskLevel": "ALTO"
     }
   },
   "manualPending": [
