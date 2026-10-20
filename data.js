@@ -1,22 +1,26 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-19T22:04:11.434Z",
+  "updatedAt": "2026-10-20T03:48:50.935Z",
   "readings": {
-    "fearGreed": 59,
+    "fearGreed": 55,
     "fearGreedLabel": "Greed",
-    "btc": 82003,
-    "eth": 2402.92,
-    "sol": 104.82,
-    "btcMA50": 81413,
+    "btc": 81967,
+    "eth": 2409.33,
+    "sol": 105.22,
+    "btcMA50": 81495,
     "cpiYoY": 4,
     "fedRate": 3.75,
-    "dollarIndex": 121.4
+    "dollarIndex": 121.4,
+    "usdmxn": 18.4253,
+    "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
     "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
-    "dxy": "fuerte"
+    "dxy": "fuerte",
+    "mxn": "debil",
+    "banxico": "estable"
   },
   "state": {
     "fed": "sube",
@@ -26,7 +30,7 @@ window.IOS_DATA = {
     "senti": "codicia",
     "tend": "lateral",
     "banxico": "estable",
-    "mxn": "estable",
+    "mxn": "debil",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -90,8 +94,8 @@ window.IOS_DATA = {
       "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -4.5,
-      "risk": 3.9,
+      "score": -6,
+      "risk": 4.4,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -99,6 +103,10 @@ window.IOS_DATA = {
         },
         {
           "label": "Política monetaria de la Fed",
+          "w": -1.5
+        },
+        {
+          "label": "Peso mexicano (MXN)",
           "w": -1.5
         },
         {
@@ -115,19 +123,15 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 75,
+      "conv": 100,
       "riskLevel": "ALTO"
     }
   },
   "manualPending": [
     "geo",
-    "banxico",
-    "mxn",
     "regcripto",
     "results"
   ],
-  "notes": [
-    "Banxico falló: Unexpected token '<', \"<html>\r\n<h\"... is not valid JSON"
-  ],
+  "notes": [],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 };
