@@ -1,31 +1,25 @@
 {
-  "updatedAt": "2026-10-21T11:18:59.627Z",
+  "updatedAt": "2026-10-21T16:45:33.211Z",
   "readings": {
     "fearGreed": 63,
     "fearGreedLabel": "Greed",
-    "btc": 83315,
-    "eth": 2460.82,
-    "sol": 106.69,
-    "btcMA50": 81608,
-    "cpiYoY": 4,
-    "fedRate": 3.75,
-    "dollarIndex": 121.4,
+    "btc": 84622,
+    "eth": 2512.27,
+    "sol": 108.35,
+    "btcMA50": 81633,
     "usdmxn": 18.42,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
     "tend": "alza",
-    "infla": "sube",
-    "fed": "sube",
-    "dxy": "fuerte",
     "mxn": "debil",
     "banxico": "estable"
   },
   "state": {
-    "fed": "sube",
-    "infla": "sube",
-    "dxy": "fuerte",
+    "fed": "estable",
+    "infla": "estable",
+    "dxy": "neutral",
     "geo": "bajo",
     "senti": "codicia",
     "tend": "alza",
@@ -36,21 +30,9 @@
   },
   "markets": {
     "CR": {
-      "score": -5.7,
-      "risk": 4.6,
+      "score": -0.19999999999999996,
+      "risk": 3.5,
       "drivers": [
-        {
-          "label": "Política monetaria de la Fed",
-          "w": -2.5
-        },
-        {
-          "label": "Inflación en EE.UU.",
-          "w": -1.5
-        },
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -1.5
-        },
         {
           "label": "Sentimiento (Miedo y Codicia)",
           "w": -1.5
@@ -64,22 +46,14 @@
           "w": 0.3
         }
       ],
-      "signal": "VENTA",
-      "conv": 95,
+      "signal": "ESPERA",
+      "conv": 3,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -3.5,
-      "risk": 3.6,
+      "score": 0.5,
+      "risk": 2.5,
       "drivers": [
-        {
-          "label": "Política monetaria de la Fed",
-          "w": -2
-        },
-        {
-          "label": "Inflación en EE.UU.",
-          "w": -1.5
-        },
         {
           "label": "Sentimiento (Miedo y Codicia)",
           "w": -1
@@ -89,39 +63,23 @@
           "w": 1
         },
         {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -0.5
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         }
       ],
-      "signal": "VENTA",
-      "conv": 58,
-      "riskLevel": "ALTO"
+      "signal": "ESPERA",
+      "conv": 8,
+      "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -5,
-      "risk": 4.4,
+      "score": -0.5,
+      "risk": 3.3,
       "drivers": [
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -2
-        },
-        {
-          "label": "Política monetaria de la Fed",
-          "w": -1.5
-        },
         {
           "label": "Peso mexicano (MXN)",
           "w": -1.5
         },
         {
-          "label": "Inflación en EE.UU.",
-          "w": -1
-        },
-        {
           "label": "Tendencia técnica del mercado",
           "w": 1
         },
@@ -134,16 +92,21 @@
           "w": -0.5
         }
       ],
-      "signal": "VENTA",
-      "conv": 83,
-      "riskLevel": "ALTO"
+      "signal": "ESPERA",
+      "conv": 8,
+      "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
+    "fed",
+    "infla",
+    "dxy",
     "geo",
     "regcripto",
     "results"
   ],
-  "notes": [],
+  "notes": [
+    "FRED falló: Unexpected token '<', \"<!doctype \"... is not valid JSON"
+  ],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 }
