@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-21T21:20:41.508Z",
+  "updatedAt": "2026-10-22T03:39:19.292Z",
   "readings": {
-    "fearGreed": 63,
+    "fearGreed": 68,
     "fearGreedLabel": "Greed",
-    "btc": 84634,
-    "eth": 2491.72,
-    "sol": 107.89,
-    "btcMA50": 81633,
+    "btc": 82687,
+    "eth": 2435.38,
+    "sol": 105.18,
+    "btcMA50": 81727,
     "usdmxn": 18.6425,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "codicia",
-    "tend": "alza",
+    "tend": "lateral",
     "mxn": "debil",
     "banxico": "estable"
   },
@@ -22,7 +22,7 @@
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "codicia",
-    "tend": "alza",
+    "tend": "lateral",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -30,7 +30,7 @@
   },
   "markets": {
     "CR": {
-      "score": -0.19999999999999996,
+      "score": -1.2,
       "risk": 3.5,
       "drivers": [
         {
@@ -38,29 +38,21 @@
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "ESPERA",
-      "conv": 3,
+      "conv": 20,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": 0.5,
+      "score": -0.5,
       "risk": 2.5,
       "drivers": [
         {
           "label": "Sentimiento (Miedo y Codicia)",
           "w": -1
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -72,16 +64,12 @@
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -0.5,
+      "score": -1.5,
       "risk": 3.3,
       "drivers": [
         {
           "label": "Peso mexicano (MXN)",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": 1
         },
         {
           "label": "Riesgo geopolítico",
@@ -93,7 +81,7 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 8,
+      "conv": 25,
       "riskLevel": "MEDIO"
     }
   },
