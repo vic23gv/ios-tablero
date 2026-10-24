@@ -1,22 +1,26 @@
 {
-  "updatedAt": "2026-10-24T15:31:13.112Z",
+  "updatedAt": "2026-10-24T20:22:16.260Z",
   "readings": {
     "fearGreed": 51,
     "fearGreedLabel": "Neutral",
-    "btc": 79370,
-    "eth": 2292,
-    "sol": 98.97,
-    "btcMA50": 81735,
+    "btc": 80520,
+    "eth": 2344.79,
+    "sol": 101.51,
+    "btcMA50": 81760,
     "cpiYoY": 4,
     "fedRate": 3.75,
-    "dollarIndex": 121.4
+    "dollarIndex": 121.4,
+    "usdmxn": 18.667,
+    "banxicoRate": 6.5
   },
   "auto": {
     "senti": "neutral",
-    "tend": "baja",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
-    "dxy": "fuerte"
+    "dxy": "fuerte",
+    "mxn": "debil",
+    "banxico": "estable"
   },
   "state": {
     "fed": "sube",
@@ -24,16 +28,16 @@
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "neutral",
-    "tend": "baja",
+    "tend": "lateral",
     "banxico": "estable",
-    "mxn": "estable",
+    "mxn": "debil",
     "regcripto": "neutral",
     "results": "linea"
   },
   "markets": {
     "CR": {
-      "score": -6.2,
-      "risk": 3.3999999999999995,
+      "score": -5.2,
+      "risk": 3.0999999999999996,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -48,21 +52,17 @@
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 100,
-      "riskLevel": "ALTO"
+      "conv": 87,
+      "riskLevel": "MEDIO"
     },
     "US": {
-      "score": -4.5,
-      "risk": 2.4,
+      "score": -3.5,
+      "risk": 2.1,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -71,10 +71,6 @@
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
-        },
-        {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -86,12 +82,12 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 75,
+      "conv": 58,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -5,
-      "risk": 2.6999999999999997,
+      "score": -5.5,
+      "risk": 2.9,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -102,11 +98,11 @@
           "w": -1.5
         },
         {
-          "label": "Inflación en EE.UU.",
-          "w": -1
+          "label": "Peso mexicano (MXN)",
+          "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
+          "label": "Inflación en EE.UU.",
           "w": -1
         },
         {
@@ -115,19 +111,15 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 83,
+      "conv": 92,
       "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
     "geo",
-    "banxico",
-    "mxn",
     "regcripto",
     "results"
   ],
-  "notes": [
-    "Banxico falló: HTTP 404 en https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF61745/datos/2026-07-21/2026-10-24?token=a54f630ad9c41f274ce57f06e700df934131ff5e666c110417511566dc43d86d"
-  ],
+  "notes": [],
   "source": "IOS motor Nivel 1 · fuentes gratuitas"
 }
