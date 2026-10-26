@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-25T20:29:05.536Z",
+  "updatedAt": "2026-10-26T03:38:21.578Z",
   "readings": {
-    "fearGreed": 54,
+    "fearGreed": 50,
     "fearGreedLabel": "Neutral",
-    "btc": 80489,
-    "eth": 2348.71,
-    "sol": 101.68,
-    "btcMA50": 81781,
+    "btc": 79538,
+    "eth": 2305.4,
+    "sol": 100.42,
+    "btcMA50": 81768,
     "cpiYoY": 4,
     "fedRate": 3.75,
     "dollarIndex": 121.4,
@@ -15,7 +15,7 @@ window.IOS_DATA = {
   },
   "auto": {
     "senti": "neutral",
-    "tend": "lateral",
+    "tend": "baja",
     "infla": "sube",
     "fed": "sube",
     "dxy": "fuerte",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "fuerte",
     "geo": "bajo",
     "senti": "neutral",
-    "tend": "lateral",
+    "tend": "baja",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,8 +36,8 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -5.2,
-      "risk": 3.0999999999999996,
+      "score": -6.2,
+      "risk": 3.3999999999999995,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -52,17 +52,21 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 87,
-      "riskLevel": "MEDIO"
+      "conv": 100,
+      "riskLevel": "ALTO"
     },
     "US": {
-      "score": -3.5,
-      "risk": 2.1,
+      "score": -4.5,
+      "risk": 2.4,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -71,6 +75,10 @@ window.IOS_DATA = {
         {
           "label": "Inflación en EE.UU.",
           "w": -1.5
+        },
+        {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -82,12 +90,12 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 58,
+      "conv": 75,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -5.5,
-      "risk": 2.9,
+      "score": -6.5,
+      "risk": 3.1999999999999997,
       "drivers": [
         {
           "label": "Fortaleza del dólar (DXY)",
@@ -106,12 +114,16 @@ window.IOS_DATA = {
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 92,
+      "conv": 100,
       "riskLevel": "MEDIO"
     }
   },
