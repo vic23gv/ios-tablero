@@ -1,34 +1,34 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-26T12:24:37.805Z",
+  "updatedAt": "2026-10-26T22:22:34.533Z",
   "readings": {
     "fearGreed": 50,
     "fearGreedLabel": "Neutral",
-    "btc": 80207,
-    "eth": 2325.62,
-    "sol": 101.49,
-    "btcMA50": 81780,
+    "btc": 79890,
+    "eth": 2308.11,
+    "sol": 100.24,
+    "btcMA50": 81774,
     "cpiYoY": 4,
     "fedRate": 3.75,
-    "dollarIndex": 121.4,
-    "usdmxn": 18.667,
+    "dollarIndex": 121.3,
+    "usdmxn": 18.5798,
     "banxicoRate": 6.5
   },
   "auto": {
     "senti": "neutral",
-    "tend": "lateral",
+    "tend": "baja",
     "infla": "sube",
     "fed": "sube",
-    "dxy": "fuerte",
+    "dxy": "neutral",
     "mxn": "debil",
     "banxico": "estable"
   },
   "state": {
     "fed": "sube",
     "infla": "sube",
-    "dxy": "fuerte",
+    "dxy": "neutral",
     "geo": "bajo",
     "senti": "neutral",
-    "tend": "lateral",
+    "tend": "baja",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,7 +36,7 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -5.2,
+      "score": -4.7,
       "risk": 3.0999999999999996,
       "drivers": [
         {
@@ -48,8 +48,8 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -1.5
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Riesgo geopolítico",
@@ -57,11 +57,11 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 87,
+      "conv": 78,
       "riskLevel": "MEDIO"
     },
     "US": {
-      "score": -3.5,
+      "score": -4,
       "risk": 2.1,
       "drivers": [
         {
@@ -73,8 +73,8 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -0.5
+          "label": "Tendencia técnica del mercado",
+          "w": -1
         },
         {
           "label": "Riesgo geopolítico",
@@ -82,17 +82,13 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 58,
+      "conv": 67,
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -5.5,
+      "score": -4.5,
       "risk": 2.9,
       "drivers": [
-        {
-          "label": "Fortaleza del dólar (DXY)",
-          "w": -2
-        },
         {
           "label": "Política monetaria de la Fed",
           "w": -1.5
@@ -106,12 +102,16 @@ window.IOS_DATA = {
           "w": -1
         },
         {
+          "label": "Tendencia técnica del mercado",
+          "w": -1
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 92,
+      "conv": 75,
       "riskLevel": "MEDIO"
     }
   },
