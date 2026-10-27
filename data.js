@@ -1,12 +1,12 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-10-27T11:43:31.573Z",
+  "updatedAt": "2026-10-27T17:36:27.979Z",
   "readings": {
     "fearGreed": 48,
     "fearGreedLabel": "Neutral",
-    "btc": 79782,
-    "eth": 2311.91,
-    "sol": 99.99,
-    "btcMA50": 81766,
+    "btc": 80691,
+    "eth": 2350.47,
+    "sol": 101.03,
+    "btcMA50": 81783,
     "cpiYoY": 4,
     "fedRate": 3.75,
     "dollarIndex": 121.3,
@@ -15,7 +15,7 @@ window.IOS_DATA = {
   },
   "auto": {
     "senti": "neutral",
-    "tend": "baja",
+    "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
     "dxy": "neutral",
@@ -28,7 +28,7 @@ window.IOS_DATA = {
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "neutral",
-    "tend": "baja",
+    "tend": "lateral",
     "banxico": "estable",
     "mxn": "debil",
     "regcripto": "neutral",
@@ -36,8 +36,8 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -4.7,
-      "risk": 3.0999999999999996,
+      "score": -3.7,
+      "risk": 2.8,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -48,21 +48,17 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 78,
+      "conv": 62,
       "riskLevel": "MEDIO"
     },
     "US": {
-      "score": -4,
-      "risk": 2.1,
+      "score": -3,
+      "risk": 1.8,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -73,21 +69,17 @@ window.IOS_DATA = {
           "w": -1.5
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 67,
-      "riskLevel": "MEDIO"
+      "conv": 50,
+      "riskLevel": "BAJO"
     },
     "MX": {
-      "score": -4.5,
-      "risk": 2.9,
+      "score": -3.5,
+      "risk": 2.6,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -102,16 +94,12 @@ window.IOS_DATA = {
           "w": -1
         },
         {
-          "label": "Tendencia técnica del mercado",
-          "w": -1
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 75,
+      "conv": 58,
       "riskLevel": "MEDIO"
     }
   },
