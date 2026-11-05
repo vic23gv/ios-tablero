@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-04T23:17:50.239Z",
+  "updatedAt": "2026-11-05T05:33:08.281Z",
   "readings": {
-    "fearGreed": 34,
-    "fearGreedLabel": "Fear",
-    "btc": 80453,
-    "eth": 2425.93,
-    "sol": 95.52,
-    "btcMA50": 81882,
+    "fearGreed": 50,
+    "fearGreedLabel": "Neutral",
+    "btc": 80394,
+    "eth": 2421.92,
+    "sol": 95.89,
+    "btcMA50": 81976,
     "cpiYoY": 4,
     "fedRate": 3.88,
     "dollarIndex": 121.7,
@@ -14,7 +14,7 @@
     "banxicoRate": 6.5
   },
   "auto": {
-    "senti": "miedo",
+    "senti": "neutral",
     "tend": "lateral",
     "infla": "sube",
     "fed": "sube",
@@ -27,7 +27,7 @@
     "infla": "sube",
     "dxy": "neutral",
     "geo": "bajo",
-    "senti": "miedo",
+    "senti": "neutral",
     "tend": "lateral",
     "banxico": "estable",
     "mxn": "debil",
@@ -36,8 +36,8 @@
   },
   "markets": {
     "CR": {
-      "score": -3.2,
-      "risk": 4.3,
+      "score": -3.7,
+      "risk": 2.8,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -48,21 +48,17 @@
           "w": -1.5
         },
         {
-          "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.5
-        },
-        {
           "label": "Riesgo geopolítico",
           "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 53,
-      "riskLevel": "ALTO"
+      "conv": 62,
+      "riskLevel": "MEDIO"
     },
     "US": {
-      "score": -2.5,
-      "risk": 3.3,
+      "score": -3,
+      "risk": 1.8,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -75,19 +71,15 @@
         {
           "label": "Riesgo geopolítico",
           "w": 0.5
-        },
-        {
-          "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.5
         }
       ],
       "signal": "VENTA",
-      "conv": 42,
-      "riskLevel": "MEDIO"
+      "conv": 50,
+      "riskLevel": "BAJO"
     },
     "MX": {
-      "score": -3.2,
-      "risk": 4.1,
+      "score": -3.5,
+      "risk": 2.6,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -104,15 +96,11 @@
         {
           "label": "Riesgo geopolítico",
           "w": 0.5
-        },
-        {
-          "label": "Sentimiento (Miedo y Codicia)",
-          "w": 0.3
         }
       ],
       "signal": "VENTA",
-      "conv": 53,
-      "riskLevel": "ALTO"
+      "conv": 58,
+      "riskLevel": "MEDIO"
     }
   },
   "manualPending": [
