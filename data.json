@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-10T01:14:56.732Z",
+  "updatedAt": "2026-11-10T14:28:01.644Z",
   "readings": {
     "fearGreed": 32,
     "fearGreedLabel": "Fear",
-    "btc": 75128,
-    "eth": 2128.61,
-    "sol": 86.6,
-    "btcMA50": 81516,
-    "cpiYoY": 4,
+    "btc": 73700,
+    "eth": 2063.29,
+    "sol": 83.73,
+    "btcMA50": 81487,
+    "cpiYoY": 4.1,
     "fedRate": 3.88,
     "dollarIndex": 121.9,
     "usdmxn": 18.5983,
@@ -16,7 +16,7 @@
   "auto": {
     "senti": "miedo",
     "tend": "baja",
-    "infla": "sube",
+    "infla": "estable",
     "fed": "sube",
     "dxy": "neutral",
     "mxn": "estable",
@@ -24,7 +24,7 @@
   },
   "state": {
     "fed": "sube",
-    "infla": "sube",
+    "infla": "estable",
     "dxy": "neutral",
     "geo": "bajo",
     "senti": "miedo",
@@ -36,16 +36,12 @@
   },
   "markets": {
     "CR": {
-      "score": -4.2,
-      "risk": 4.6,
+      "score": -2.7,
+      "risk": 4.3,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
           "w": -2.5
-        },
-        {
-          "label": "Inflación en EE.UU.",
-          "w": -1.5
         },
         {
           "label": "Tendencia técnica del mercado",
@@ -61,20 +57,16 @@
         }
       ],
       "signal": "VENTA",
-      "conv": 70,
+      "conv": 45,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -3.5,
-      "risk": 3.5999999999999996,
+      "score": -2,
+      "risk": 3.3,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
           "w": -2
-        },
-        {
-          "label": "Inflación en EE.UU.",
-          "w": -1.5
         },
         {
           "label": "Tendencia técnica del mercado",
@@ -89,13 +81,13 @@
           "w": 0.5
         }
       ],
-      "signal": "VENTA",
-      "conv": 58,
-      "riskLevel": "ALTO"
+      "signal": "ESPERA",
+      "conv": 33,
+      "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -1.2000000000000002,
-      "risk": 3.9,
+      "score": -0.19999999999999996,
+      "risk": 3.5999999999999996,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -104,10 +96,6 @@
         {
           "label": "Banxico — tasa en México",
           "w": 1.5
-        },
-        {
-          "label": "Inflación en EE.UU.",
-          "w": -1
         },
         {
           "label": "Tendencia técnica del mercado",
@@ -123,7 +111,7 @@
         }
       ],
       "signal": "ESPERA",
-      "conv": 20,
+      "conv": 3,
       "riskLevel": "ALTO"
     }
   },
