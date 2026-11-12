@@ -1,16 +1,16 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-11-11T13:42:06.315Z",
+  "updatedAt": "2026-11-12T00:09:01.451Z",
   "readings": {
-    "fearGreed": 29,
+    "fearGreed": 28,
     "fearGreedLabel": "Fear",
-    "btc": 73649,
-    "eth": 2048.57,
-    "sol": 84.04,
-    "btcMA50": 81235,
+    "btc": 73977,
+    "eth": 2057.34,
+    "sol": 83.42,
+    "btcMA50": 81239,
     "cpiYoY": 4.1,
     "fedRate": 3.88,
     "dollarIndex": 121.9,
-    "usdmxn": 18.6678,
+    "usdmxn": 18.6192,
     "banxicoRate": 6.25
   },
   "auto": {
@@ -19,7 +19,7 @@ window.IOS_DATA = {
     "infla": "estable",
     "fed": "sube",
     "dxy": "neutral",
-    "mxn": "debil",
+    "mxn": "estable",
     "banxico": "baja"
   },
   "state": {
@@ -30,7 +30,7 @@ window.IOS_DATA = {
     "senti": "miedo",
     "tend": "baja",
     "banxico": "baja",
-    "mxn": "debil",
+    "mxn": "estable",
     "regcripto": "neutral",
     "results": "linea"
   },
@@ -86,8 +86,8 @@ window.IOS_DATA = {
       "riskLevel": "MEDIO"
     },
     "MX": {
-      "score": -1.7,
-      "risk": 4.1,
+      "score": -0.19999999999999996,
+      "risk": 3.5999999999999996,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -96,10 +96,6 @@ window.IOS_DATA = {
         {
           "label": "Banxico — tasa en México",
           "w": 1.5
-        },
-        {
-          "label": "Peso mexicano (MXN)",
-          "w": -1.5
         },
         {
           "label": "Tendencia técnica del mercado",
@@ -115,7 +111,7 @@ window.IOS_DATA = {
         }
       ],
       "signal": "ESPERA",
-      "conv": 28,
+      "conv": 3,
       "riskLevel": "ALTO"
     }
   },
