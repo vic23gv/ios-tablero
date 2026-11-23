@@ -1,16 +1,16 @@
 window.IOS_DATA = {
-  "updatedAt": "2026-11-23T06:12:08.725Z",
+  "updatedAt": "2026-11-23T23:29:47.909Z",
   "readings": {
     "fearGreed": 11,
     "fearGreedLabel": "Extreme Fear",
-    "btc": 61688,
-    "eth": 1727.88,
-    "sol": 71.9,
-    "btcMA50": 76394,
+    "btc": 61479,
+    "eth": 1715.94,
+    "sol": 72.05,
+    "btcMA50": 76391,
     "cpiYoY": 4.1,
     "fedRate": 3.88,
-    "dollarIndex": 122.7,
-    "usdmxn": 19.0228,
+    "dollarIndex": 123.6,
+    "usdmxn": 19.1648,
     "banxicoRate": 6.25
   },
   "auto": {
@@ -18,14 +18,14 @@ window.IOS_DATA = {
     "tend": "baja",
     "infla": "estable",
     "fed": "sube",
-    "dxy": "neutral",
+    "dxy": "fuerte",
     "mxn": "debil",
     "banxico": "baja"
   },
   "state": {
     "fed": "sube",
     "infla": "estable",
-    "dxy": "neutral",
+    "dxy": "fuerte",
     "geo": "bajo",
     "senti": "miedo",
     "tend": "baja",
@@ -36,12 +36,16 @@ window.IOS_DATA = {
   },
   "markets": {
     "CR": {
-      "score": -2.7,
-      "risk": 4.3,
+      "score": -4.2,
+      "risk": 4.6,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
           "w": -2.5
+        },
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -1.5
         },
         {
           "label": "Tendencia técnica del mercado",
@@ -57,12 +61,12 @@ window.IOS_DATA = {
         }
       ],
       "signal": "VENTA",
-      "conv": 45,
+      "conv": 70,
       "riskLevel": "ALTO"
     },
     "US": {
-      "score": -2,
-      "risk": 3.3,
+      "score": -2.5,
+      "risk": 3.5999999999999996,
       "drivers": [
         {
           "label": "Política monetaria de la Fed",
@@ -73,6 +77,10 @@ window.IOS_DATA = {
           "w": -1
         },
         {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -0.5
+        },
+        {
           "label": "Riesgo geopolítico",
           "w": 0.5
         },
@@ -81,14 +89,18 @@ window.IOS_DATA = {
           "w": 0.5
         }
       ],
-      "signal": "ESPERA",
-      "conv": 33,
-      "riskLevel": "MEDIO"
+      "signal": "VENTA",
+      "conv": 42,
+      "riskLevel": "ALTO"
     },
     "MX": {
-      "score": -1.7,
-      "risk": 4.1,
+      "score": -3.7,
+      "risk": 4.4,
       "drivers": [
+        {
+          "label": "Fortaleza del dólar (DXY)",
+          "w": -2
+        },
         {
           "label": "Política monetaria de la Fed",
           "w": -1.5
@@ -114,8 +126,8 @@ window.IOS_DATA = {
           "w": 0.3
         }
       ],
-      "signal": "ESPERA",
-      "conv": 28,
+      "signal": "VENTA",
+      "conv": 62,
       "riskLevel": "ALTO"
     }
   },
